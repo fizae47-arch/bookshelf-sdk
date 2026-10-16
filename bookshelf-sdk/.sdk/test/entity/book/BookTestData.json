@@ -1,0 +1,47 @@
+{
+  "existing": {
+    "book": {
+      "BOOK00": {
+        "id": "BOOK00"
+      },
+      "BOOK01": {
+        "id": "BOOK01"
+      },
+      "BOOK02": {
+        "id": "BOOK02"
+      }
+    }
+  },
+  "new": {
+    "book": {
+      "book_ref01": {}
+    }
+  },
+  "requests": {
+    "POST /books": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    },
+    "GET /books/{bookId}": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    },
+    "GET /books": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    },
+    "DELETE /books/{bookId}": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    },
+    "PATCH /books/{bookId}": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    }
+  }
+}

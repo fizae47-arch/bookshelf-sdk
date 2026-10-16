@@ -1,0 +1,24 @@
+# API Information
+
+
+main: {
+  kit: {
+    info: {
+      auth: false
+      description: "The Bookshelf API."
+      servers: [
+        {
+          url: "{base}"
+          variables: {
+            base: {
+              description: "The base URL of the API, which its definition does not name."
+            }
+          }
+        }
+      ]
+      title: "Bookshelf"
+      version: "1.0.0"
+    }
+  }
+}
+
